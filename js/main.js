@@ -129,15 +129,8 @@ $('.quantity').each(function() {
     
 // Атрибуты цены (ЦЕНЫ УСТАНАВЛИВАЕТ ЗАКАЗЧИК)     
 $('.quantity-button').on('click', function(){
-    let summ = $('.nights').val() * $('.summ').data('nights') + ($('.guests').val() - 1) * $('.summ').data('guests');
-    
-    $('.summ').html('$' + summ);
+      let summ = $('.nights').val() * $('.summ').data('nights') + ($('.guests').val() - 1) * $('.summ').data('guests');
 });    
-    
-// NAN - (Нужно разобраться)       
-//let summ = $('.nights').val() * $('.summ').data('nights') + ($('.guests').val() - 1) * $('.summ').data('guests');
-//    
-//$('.summ').html('$' + summ);    
     
     
 $('.surfboard-box__circle').on('click', function() {
